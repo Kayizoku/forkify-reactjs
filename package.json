@@ -2,7 +2,7 @@
   "name": "forkify",
   "version": "1.0.0",
   "description": "A clone of a recipe application for the purpose of enhancing programming knowledge and to learn new techniques and methods.",
-  "main": "index.js",
+  "default": "index.html",
   "scripts": {
     "start": "parcel index.html",
     "build": "parcel build index.html"
