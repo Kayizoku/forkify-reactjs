@@ -10,6 +10,7 @@ export const loadRecipe = async function (id) {
     const data = await res.json();
 
     if (!res.ok) throw new Error(`${data.message} ${res.status}`);
+
     const recipe = data.data.recipe;
     state.recipe = {
       id: recipe.id,
